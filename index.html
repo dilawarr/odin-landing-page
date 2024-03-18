@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="nav">
         <h1 class="logo">Header Logo</h1>
         <ul>
-            <li><a href="https://google.com">header link 1</a></li>
-            <li><a href="https://google.com">header link 2</a></li>
-            <li><a href="https://google.com">header link 3</a></li>
+            <li><a href="https://google.com">header link one</a></li>
+            <li><a href="https://google.com">header link two</a></li>
+            <li><a href="https://google.com">header link three</a></li>
         </ul>
     </div>
     <div class="hero">
-        <h1 class="hero-text">This website is awesome</h1>
-        <p class="hero-subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="sign-up-button">Sing up</button>
-        <img src="#" alt="placeholder image">
+        <div class="hero-container">
+            <h1 class="hero-text">This website is awesome</h1>
+            <p class="hero-subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="sign-up-button">Sign up</button>
+        </div>
+        <img src="imgs/placeholder-image.png" alt="placeholder image">
     </div>
     <div class="information">
         <h2 class="information-heading">Some random information.</h2>
-        <img src="#" alt="illustration 1">
-        <p>This is some subtext under an illustration or image.</p>
-        <img src="#" alt="illustration 2">
-        <p>This is some subtext under an illustration or image.</p>
-        <img src="#" alt="illustration 3">
-        <p>This is some subtext under an illustration or image.</p>
-        <img src="#" alt="illustration 4">
-        <p>This is some subtext under an illustration or image.</p>
+        <div class="card-container">
+            <div class="info-card">
+                <img src="imgs/blank-page.png" alt="illustration 1" class="info-img">
+                <p>This is some subtext under an illustration or image.</p>
+            </div>
+            <div class="info-card">
+                <img src="imgs/blank-page.png" alt="illustration 2" class="info-img">
+                <p>This is some subtext under an illustration or image.</p>
+            </div>
+            <div class="info-card">
+                <img src="imgs/blank-page.png" alt="illustration 3" class="info-img">
+                <p>This is some subtext under an illustration or image.</p>
+            </div>
+            <div class="info-card">
+                <img src="imgs/blank-page.png" alt="illustration 4" class="info-img">
+                <p>This is some subtext under an illustration or image.</p>
+            </div>
+        </div>
     </div>
     <div class="quote">
         <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p class="quote-author">Thor, God of Thunder</p>
+        <p class="quote-author">-Thor, God of Thunder</p>
     </div>
     <div class="advertisement">
         <div class="modal">
-            <h3 class="ad-heading">Call to action! It's time!</h3>
-            <p class="ad-text">Sign up for our product by clicking that button right over there!</p>
+            <div class="modal-text">
+                <h3 class="ad-heading">Call to action! It's time!</h3>
+                <p class="ad-text">Sign up for our product by clicking that button right over there!</p>
+            </div>
             <button class="ad-button">Sign up</button>
         </div>
     </div>
